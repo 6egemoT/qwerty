@@ -12,10 +12,9 @@ double Fibonachi(int n)
     c++;
     if (n == 1 || n == 2) return 1;
     else return Fibonachi(n - 1) + Fibonachi(n - 2);
-
 }
 
-    Console.WriteLine(Fibonachi(43));
-    Console.WriteLine($"c: {c}");
+Console.WriteLine(Fibonachi(43));
+Console.WriteLine($"c: {c}");
 
 
